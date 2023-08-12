@@ -6,7 +6,8 @@ import common.AuthUser;
 
 import static io.restassured.RestAssured.given;
 
-public class RequestCreateUser {
+public class RequestCreateUser
+{
 
     public static Response createUser(AuthUser authUser)
     {
