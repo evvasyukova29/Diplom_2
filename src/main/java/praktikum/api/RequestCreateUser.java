@@ -1,10 +1,13 @@
 package praktikum.api;
 import common.AuthUser;
+import common.ClientUser;
 import constant.Constants;
 import io.restassured.response.Response;
 import common.AuthUser;
 
 import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class RequestCreateUser
 {
@@ -41,4 +44,5 @@ public class RequestCreateUser
                 .header("Authorization", authToken)
                 .delete(AuthRoute);
     }
+
 }

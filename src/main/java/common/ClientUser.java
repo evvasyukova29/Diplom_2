@@ -1,6 +1,6 @@
 package common;
 
-public class User
+public class ClientUser
 {
     private AuthUser authUser;
     private String accessToken;
