@@ -12,6 +12,8 @@ public class Order
         this.ingredients = new String[]{ingredient.get_id()};
     }
 
+    public Order() {}
+
     public String[] getIngredients()
     {
         return ingredients;
